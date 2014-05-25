@@ -184,6 +184,7 @@
 			_get_node : function(selector){
 				return this.get_container().find(selector);
 			},
+			//生成页面
 			create_elements : function(){
 				var avatarHtml = "<input type='file' name='uploadAvatar' id='uploadAvatar'/><h4>选择上传方式</h4>";
 				avatarHtml += "<table class='avatar-upload'><tr><td id='avatar-choose'colspan='4'>仅支持JPG、PNG、GIF（非动态图）格式，文件小于200K<br/><br/>";
@@ -204,6 +205,7 @@
 				//_this.children().wrapAll("<fieldset><legend>上传头像</legend></fieldset>");
 				_this.find("button").each(function(){$(this).button();});
 			},
+			//初始化用到的各个div和canvas
 			init_global : function(){
 				this.data.core.maskDiv = new RectPos("maskDiv",this._get_node("#avatar-mask")[0].getBoundingClientRect());
 				this.data.core.viewImg = new RectPos("viewImg");
@@ -219,6 +221,7 @@
 				this.data.core.ctxMiddle = this._get_node(".avatar-middle-img div canvas")[0].getContext("2d");
 				this.data.core.ctxLittle = this._get_node(".avatar-little-img div canvas")[0].getContext("2d");
 			},
+			//控制拖曳部分的相对位置
 			position : function(){
 				this._get_node("#avatar-controller").position({
 					of : this._get_node("#avatar-draggable"),
@@ -248,6 +251,7 @@
 					at : "right"
 				});
 			},
+			//判断浏览器能否使用HTML5进行图片加载，能则开始加载图片，并确定图片转向
 			loadImage : function (direction){
 				var avatar = this._get_node("#uploadAvatar")[0];
 				if(avatar.files){
@@ -260,6 +264,7 @@
 					}
 				}
 			},
+			//加载图片文件
 			loadFileReader : function (direction,event){
 				//direction -1左转，1右转,0无
 				this.data.core.direction = (this.data.core.direction + direction)%4;//0无、1右转90、2旋转180、3左转90
@@ -295,7 +300,8 @@
 				this.initPosInfo();
 				this.generateImgae();
 				this._get_node("#avatar-btn").css("display", "block");
-			},//加载图片时初始化位置信息
+			},
+			//加载图片时初始化位置信息
 			initPosInfo : function (){
 				if(this.data.core.imgWidth < this.data.core.imgHeight){
 					this.data.core.viewImg.ratio = this.data.core.imgHeight/300;
@@ -316,6 +322,7 @@
 					this.data.core.dragDiv.setLen(180);
 				}
 			},
+			//显示原始图片
 			generateImgae : function (){
 				this._get_node(".avatar-imageView div canvas, #avatar-mask").css({
 					"width" : this.data.core.viewImg.width + "px",	"height" : this.data.core.viewImg.height + "px",
@@ -335,7 +342,7 @@
 				this.generateCss("block");
 				this.generateAvatarCss(false);
 			},
-			//生成样式
+			//为拖曳操作生成样式
 			generateCss : function (display){
 				this.data.core.dragDiv.init(this._get_node("#avatar-draggable")[0].getBoundingClientRect());
 				var rect = this._get_node("#avatar-viewDiv")[0].getBoundingClientRect();
@@ -360,6 +367,7 @@
 				this.data.core.ctxMiddle.drawImage(this.data.core.img, cutLeft, cutTop, cutWidth, cutHeight, 0, 0, 50, 50);
 				this.data.core.ctxLittle.drawImage(this.data.core.img, cutLeft, cutTop, cutWidth, cutHeight, 0, 0, 30, 30);
 			},*/
+			//生成预览图片
 			generateAvatarCss : function (move){
 				var rect = this._get_node("#avatar-draggable")[0].getBoundingClientRect();
 				var cutLeft = (rect.left - this.data.core.viewImg.left + 0.32)*this.data.core.viewImg.ratio;
@@ -379,6 +387,7 @@
 				this.data.core.ctxLittle.putImageData(this.data.core.imgData, 0, 0);
 				this._get_node(".avatar-little-img div canvas").css({"width": "30px", "height": "30px","display":"block"});
  			},
+			//拉伸选框
 			resizeSelector : function (){
 				this._get_node("*").mouseup($.proxy(function(){
 					this.get_container().css("cursor", "default");
@@ -407,17 +416,13 @@
 					this.generateAvatarCss(true);
 				}, this));
 			},
+			//上传文件
  			upload : function(){
  				var img = new Image();
 				img.src = this.data.core.ctxBig.canvas.toDataURL("image/jpeg");
 				img.onload = $.proxy(function(){
 					this._get_node(".avatar-big-img div canvas").attr("width", 180).attr("height", 180);
 					this.data.core.ctxBig.drawImage(img, 0, 0, img.width, img.height, 0, 0, 180, 180);
-					/*this._get_node(".avatar-middle-img div canvas").attr("width", 50).attr("height", 50);
-					this._get_node(".avatar-little-img div canvas").attr("width", 30).attr("height", 30);
-					
-					this.data.core.ctxMiddle.drawImage(img,  0, 0, img.width, img.height, 0, 0, 50, 50);
-					this.data.core.ctxLittle.drawImage(img,  0, 0, img.width, img.height, 0, 0, 30, 30);*/
 					var bigAvatar = new Image();
 					bigAvatar.src = this.data.core.ctxBig.canvas.toDataURL("image/jpeg");
 					this._get_node(".avatar-big-img span").text("实际上传图片大小" + (bigAvatar.src.length/1024/1.33).toFixed(1) + "K");

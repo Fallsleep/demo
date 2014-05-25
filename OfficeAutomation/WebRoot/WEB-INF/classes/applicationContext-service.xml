@@ -12,8 +12,7 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
-	<bean id="initService" class="com.fallsleep.oa.service.impl.InitServiceImpl"
-		init-method="addInitData">
+	<bean id="initService" class="com.fallsleep.oa.service.impl.InitServiceImpl">
 		<property name="path" value="init.xml" />
 	</bean>
 </beans>
