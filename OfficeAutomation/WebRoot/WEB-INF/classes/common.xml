@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.action.extension" value="action,,do,webwork" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<constant name="struts.multipart.saveDir" value="D:/xampp/tomcat/temp/" />
+	<constant name="struts.multipart.maxSize" value="80000000" />
+	<constant name="struts.ui.theme" value="xhtml" />
+
+	<package name="common" abstract="true" extends="struts-default">
+		<interceptors>
+			<!-- 自定义拦截器 -->
+ 			<interceptor name="authInterceptor" class="com.fallsleep.oa.web.AuthInterceptor"></interceptor> 
+ 			<interceptor name="pagerInterceptor" class="com.fallsleep.oa.web.PagerInterceptor"></interceptor> 
+ 			<interceptor name="loginInterceptor" class="com.fallsleep.oa.web.LoginInterceptor"></interceptor> 
+			<interceptor-stack name="my_basic_stack">
+				<!-- 在拦截器栈中使用自定义拦截器 -->
+				<interceptor-ref name="exception" />
+ 				<interceptor-ref name="pagerInterceptor" /> 
+ 				<interceptor-ref name="authInterceptor" /> 
+				<interceptor-ref name="alias" />
+				<interceptor-ref name="servletConfig" />
+				<interceptor-ref name="i18n" />
+				<interceptor-ref name="prepare" />
+				<interceptor-ref name="chain" />
+				<interceptor-ref name="scopedModelDriven" />
+				<interceptor-ref name="modelDriven">
+					<param name="refreshModelBeforeResult">true</param>
+				</interceptor-ref>
+				<interceptor-ref name="fileUpload" />
+				<interceptor-ref name="checkbox" />
+				<interceptor-ref name="multiselect" />
+				<interceptor-ref name="staticParams" />
+				<interceptor-ref name="actionMappingParams" />
+				<interceptor-ref name="params">
+					<param name="excludeParams">dojo\..*,^struts\..*,^session\..*,^request\..*,^application\..*,^servlet(Request|Response)\..*,parameters\...*</param>
+				</interceptor-ref>
+				<interceptor-ref name="conversionError" />
+				<interceptor-ref name="validation">
+					<param name="excludeMethods">input,back,cancel,browse</param>
+				</interceptor-ref>
+				<interceptor-ref name="workflow">
+					<param name="excludeMethods">input,back,cancel,browse</param>
+				</interceptor-ref>
+				<interceptor-ref name="debugging" />
+			</interceptor-stack>
+			<interceptor-stack name="my_need_login_stack">
+				<!-- 使用登陆拦截器 -->
+ 				<interceptor-ref name="loginInterceptor" /> 
+				<interceptor-ref name="my_basic_stack" />
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="my_need_login_stack" />
+
+		<global-results>
+			<result name="error">/common/error.jsp</result>
+			<result name="login" type="redirect">/index.jsp</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping result="error"
+				exception="java.lang.RuntimeException"></exception-mapping>
+		</global-exception-mappings>
+	</package>
+	
+</struts>

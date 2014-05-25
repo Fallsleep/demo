@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<init package="com.fallsleep.oa.model">
+	<entity class="Company" 
+			name="秋意无眠科技有限公司"
+			description="逗比得要死的公司"
+			call="partyService.addParty">
+		<entity class="Department" name="总经办">
+			<entity class="Position" name="总经理">
+				<entity class="Person" name="张三" sex="男" tel="82342534"/>
+			</entity>
+			<entity class="Position" name="副总经理">
+				<entity class="Person" name="李四" sex="女" tel="82355534"/>
+			</entity>
+		</entity>
+		<entity class="Department" name="财务部">
+			<entity class="Position" name="会计">
+				<entity class="Person" name="王二" sex="男" tel="82333334"/>
+			</entity>
+			<entity class="Position" name="出纳">
+				<entity class="Person" name="李狗蛋" sex="女" tel="82388884"/>
+			</entity>
+		</entity>
+		<entity class="Company" name="北京分公司"/>
+	</entity>
+	
+	<entity class="Role" name="临时工" call="roleService.addRole"/>
+	<entity class="Role" name="部门领导" call="roleService.addRole"/>
+	<entity class="Role" name="档案管理员" call="roleService.addRole"/>
+	
+	<entity class="Menu" sn="personal" name="个人办公" orderNumber="1" display="true" call="menuService.addMenu">
+		<entity class="Menu" name="桌面" orderNumber="11" display="true">
+			<entity class="Menu" name="我的桌面" orderNumber="111" display="true"/>
+			<entity class="Menu" name="桌面配置" orderNumber="112" display="true"/>
+		</entity>
+		<entity class="Menu" name="任务计划" orderNumber="12" display="true">
+			<entity class="Menu" name="创建计划" orderNumber="121" display="true"/>
+			<entity class="Menu" name="查询计划" orderNumber="122" display="true"/>
+			<entity class="Menu" name="计划分类" orderNumber="123" display="true"/>
+		</entity>
+		<entity class="Menu" name="日程安排" orderNumber="13" display="true">
+			<entity class="Menu" name="创建日程" orderNumber="131" display="true"/>
+			<entity class="Menu" name="查询日程" orderNumber="132" display="true"/>
+			<entity class="Menu" name="日程分类" orderNumber="133" display="true"/>
+		</entity>
+		<entity class="Menu" name="日志管理" orderNumber="14" display="true">
+			<entity class="Menu" name="创建日志" orderNumber="141" display="true"/>
+			<entity class="Menu" name="我的日志" orderNumber="142" display="true"/>
+			<entity class="Menu" name="共享日志" orderNumber="143" display="true"/>
+			<entity class="Menu" name="日志分类" orderNumber="144" display="true"/>
+		</entity>
+		<entity class="Menu" name="工作报告" orderNumber="15" display="true">
+			<entity class="Menu" name="编写报告" orderNumber="151" display="true"/>
+			<entity class="Menu" name="查询报告" orderNumber="152" display="true"/>
+		</entity>
+		<entity class="Menu" name="电子邮件" orderNumber="16" display="true">
+			<entity class="Menu" name="收件箱" orderNumber="161" display="true"/>
+			<entity class="Menu" name="发件箱" orderNumber="162" display="true"/>
+			<entity class="Menu" name="参数配置" orderNumber="163" display="true"/>
+		</entity>
+		<entity class="Menu" name="消息管理" orderNumber="17" display="true">
+			<entity class="Menu" name="发送消息" orderNumber="171" display="true"/>
+			<entity class="Menu" name="已接收消息" orderNumber="172" display="true"/>
+			<entity class="Menu" name="已发送消息" orderNumber="173" display="true"/>
+			<entity class="Menu" name="已删除消息" orderNumber="173" display="true"/>
+		</entity>
+		<entity class="Menu" name="手机短信" orderNumber="18" display="true">
+			<entity class="Menu" name="发送手机短信" orderNumber="181" display="true"/>
+			<entity class="Menu" name="已接收短信" orderNumber="182" display="true"/>
+			<entity class="Menu" name="已发送短信" orderNumber="183" display="true"/>
+			<entity class="Menu" name="短信网关配置" orderNumber="184" display="true"/>
+		</entity>
+		<entity class="Menu" name="通信录" orderNumber="19" display="true">
+			<entity class="Menu" name="私人通信录" orderNumber="191" display="true"/>
+			<entity class="Menu" name="公共通信录" orderNumber="192" display="true"/>
+		</entity>
+		<entity class="Menu" name="网络硬盘" orderNumber="20" display="true">
+			<entity class="Menu" name="公共空间" orderNumber="201" display="true"/>
+			<entity class="Menu" name="私人空间" orderNumber="202" display="true"/>
+		</entity>
+		<entity class="Menu" name="个人设置" orderNumber="21" display="true">
+			<entity class="Menu" name="个人信息" orderNumber="211" display="true"/>
+			<entity class="Menu" name="修改密码" orderNumber="212" display="true"/>
+			<entity class="Menu" name="工作状态" orderNumber="213" display="true"/>
+			<entity class="Menu" name="在线状态" orderNumber="214" display="true"/>
+		</entity>
+	</entity>
+	<entity class="Menu" sn="workflow" name="工作流" orderNumber="2" display="true" call="menuService.addMenu">
+		<entity class="Menu" name="表单定义" orderNumber="21" display="true">
+			<entity class="Menu" name="创建新的表单" orderNumber="211" display="true"/>
+			<entity class="Menu" name="查询已有表单" orderNumber="213" display="true"/>
+		</entity>
+		<entity class="Menu" name="流程定义" orderNumber="22" display="true">
+			<entity class="Menu" name="创建新的流程定义" orderNumber="221" display="true"/>
+			<entity class="Menu" name="查询已有流程定义" orderNumber="222" display="true"/>
+		</entity>
+		<entity class="Menu" name="任务管理" orderNumber="23" display="true">
+			<entity class="Menu" name="新建任务" orderNumber="231" display="true"/>
+			<entity class="Menu" name="我的任务" orderNumber="232" display="true"/>
+			<entity class="Menu" name="待办任务" orderNumber="233" display="true"/>
+			<entity class="Menu" name="已办任务" orderNumber="234" display="true"/>
+		</entity>
+	</entity>
+	<entity class="Menu" sn="office" name="行政办公" orderNumber="3" display="true" call="menuService.addMenu">
+		<entity class="Menu" name="公告通知" orderNumber="31" display="true">
+			<entity class="Menu" name="发布公告" orderNumber="311" display="true"/>
+			<entity class="Menu" name="查阅历史公告" orderNumber="312" display="true"/>
+			<entity class="Menu" name="公告分类" orderNumber="313" display="true"/>
+		</entity>
+		<entity class="Menu" name="会议管理" orderNumber="32" display="true">
+		</entity>
+		<entity class="Menu" name="车辆管理" orderNumber="33" display="true">
+		</entity>
+		<entity class="Menu" name="图书管理" orderNumber="34" display="true">
+		</entity>
+		<entity class="Menu" name="设备管理" orderNumber="35" display="true">
+		</entity>
+		<entity class="Menu" name="用品管理" orderNumber="36" display="true">
+		</entity>
+	</entity>
+	<entity class="Menu" sn="system" name="系统管理" orderNumber="4" display="true" call="menuService.addMenu">
+		<entity class="Menu" name="组织机构管理" orderNumber="41" display="true">
+			<entity class="Menu" name="单位/公司信息设置" href="system/company.action?method:saveInput" orderNumber="411" display="true"/>
+			<entity class="Menu" name="部门/岗位设置" href="system/party.action" orderNumber="412" display="true"/>
+			<entity class="Menu" name="人员管理" href="system/person.action" orderNumber="413" display="true"/>
+		</entity>
+		<entity class="Menu" name="权限管理" orderNumber="42" display="true">
+			<entity class="Menu" name="用户管理" href="system/user.action" orderNumber="421" display="true"/>
+			<entity class="Menu" name="角色管理" href="system/role.action" orderNumber="422" display="true"/>
+			<entity class="Menu" name="菜单管理" href="system/menu.action" orderNumber="423" display="true"/>
+			<entity class="Menu" name="资源管理" href="system/resource.action" orderNumber="424" display="true"/>
+			<entity class="Menu" name="用户授权" href="system/acl!userAuthIndex.action" orderNumber="425" display="true"/>
+			<entity class="Menu" name="角色授权" href="system/acl!roleAuthIndex.action" orderNumber="426" display="true"/>
+			<entity class="Menu" name="部门/岗位授权" href="system/acl!partyAuthIndex.action" orderNumber="427" display="true"/>
+		</entity>
+	</entity>
+	<entity class="Menu" sn="archives" name="档案管理" orderNumber="5" display="true" call="menuService.addMenu">
+		<entity class="Menu" name="卷库分类" orderNumber="51" display="true">
+			<entity class="Menu" name="创建分类" orderNumber="511" display="true"/>
+			<entity class="Menu" name="查询已有分类" orderNumber="512" display="true"/>
+		</entity>
+		<entity class="Menu" name="案卷分类" orderNumber="52" display="true">
+			<entity class="Menu" name="创建新的分类" orderNumber="521" display="true"/>
+			<entity class="Menu" name="查询已有案卷" orderNumber="522" display="true"/>
+		</entity>
+		<entity class="Menu" name="档案维护" orderNumber="53" display="true">
+		</entity>
+		<entity class="Menu" name="档案查阅" orderNumber="54" display="true">
+			<entity class="Menu" name="申请档案查阅" orderNumber="541" display="true"/>
+			<entity class="Menu" name="审批档案查阅申请" orderNumber="542" display="true"/>
+			<entity class="Menu" name="查阅档案" orderNumber="543" display="true"/>
+		</entity>
+	</entity>
+	<entity class="Menu" name="内部论坛" orderNumber="6" display="true" call="menuService.addMenu">
+		<entity class="Menu" name="板块交流" orderNumber="61" display="true">
+			<entity class="Menu" name="Java技术园地" orderNumber="611" display="true"/>
+			<entity class="Menu" name="灌水专区" orderNumber="612" display="true"/>
+		</entity>
+		<entity class="Menu" name="论坛设置" orderNumber="62" display="true">
+		</entity>
+	</entity>
+	<entity class="Menu" name="知识管理" orderNumber="7" display="true" call="menuService.addMenu">
+		<entity class="Menu" name="知识分类" orderNumber="71" display="true">
+			<entity class="Menu" name="创建新的分类" orderNumber="711" display="true"/>
+			<entity class="Menu" name="查询已有分类" orderNumber="712" display="true"/>
+		</entity>
+		<entity class="Menu" name="知识维护" orderNumber="72" display="true">
+			<entity class="Menu" name="创建新的知识" orderNumber="721" display="true"/>
+			<entity class="Menu" name="查询已有知识" orderNumber="722" display="true"/>
+		</entity>
+	</entity>
+	
+	<entity class="ActionResource" name="权限操作" orderNumber="60" sn="security" call="resourceService.addActionResource"/>
+</init>

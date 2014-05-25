@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/js/avatar/jquery.ui.position.min.js,WebRoot/js/avatar/jquery.ui.core.min.js,WebRoot/js/jquery-1.8.3.min.js
+validator.Revalidate=true
+validator.Unchecked=

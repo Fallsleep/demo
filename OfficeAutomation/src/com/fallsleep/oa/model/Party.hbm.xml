@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.fallsleep.oa.model">
+	<class name="Party" table="T_PARTY" discriminator-value="F">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<discriminator column="party_type" type="char"/>
+		<property name="name"/>
+		<property name="description"/>
+		<property name="sn"/>
+		<many-to-one name="parent" column="pid"/>
+		<set name="children" inverse="true" lazy="extra" order-by="id">
+			<key column="pid"/>
+			<one-to-many class="Party"/>
+			<filter name="no_contain_person" condition="party_type != 'P'"></filter>
+		</set>
+		<subclass name="Person" discriminator-value="P">
+			<property name="duty" />
+			<property name="sex" />
+			<property name="phone" />
+			<property name="snumber" />
+			<property name="qq" />
+			<property name="msn" />
+			<property name="address" />
+			<property name="email" />
+			<one-to-one name="user"/>
+		</subclass>
+		<subclass name="Company" discriminator-value="C">
+			<property name="tel" />
+			<property name="fax" />
+			<property name="address" />
+			<property name="postcode" />
+			<property name="site" />
+			<property name="email" />
+			<property name="industry" />
+		</subclass>
+		<subclass name="Department" discriminator-value="D">
+			<property name="tel"/>
+			<property name="snumber"/>
+		</subclass>
+		<subclass name="Position" discriminator-value="S"></subclass>
+	</class>
+	<filter-def name="no_contain_person"></filter-def>
+</hibernate-mapping>

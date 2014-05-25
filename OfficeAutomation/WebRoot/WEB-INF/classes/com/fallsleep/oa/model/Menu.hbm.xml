@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.fallsleep.oa.model">
+	<class name="Menu" table="T_MENU">
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="name"/>
+		<property name="href"/>
+		<property name="orderNumber"/>
+		<property name="sn"/>
+		<property name="display"/>
+		<many-to-one name="parent" column="pid"/>
+		<set name="children" inverse="true" lazy="extra" order-by="orderNumber">
+			<key column="pid"/>
+			<one-to-many class="Menu"/>
+		</set>
+	</class>
+</hibernate-mapping>

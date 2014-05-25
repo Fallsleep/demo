@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>简易坦克大战</title>
+</head>
+<body onkeydown="getCommand();">
+<canvas id="tankMap" width="400px" height="300px"
+style="background-color:black"></canvas><br/>
+<span>通过WASD或方向键控制方向，空格发射炮弹</span>
+<script type="text/javascript" src="tankGame.js"></script>
+<script type="text/javascript">
+	var canvas=document.getElementById("tankMap");
+	var cxt=canvas.getContext("2d");
+	cxt.fillStyle="#FF0000";
+	cxt.fillText("按回车键开始游戏",150,165);
+	cxt.font="30px 隶书";
+	cxt.fillText("简易坦克大战",110,125);
+	
+	var hero=new Hero(189,270,0,2,heroColors);
+	var heroBullets=new Array();
+	
+	var enemyTanks=new Array();
+	var enemyBullets=new Array();
+	var bombs=new Array();
+	var enemyTankNum=3;
+	var flashTimer=null;
+	var gameStatus=0;//0未开始1开始2结束
+	function gameStart(){
+		for(var i=0;i<enemyTankNum;i++){
+			//创建坦克
+			var enemyTank=new EnemyTank(i*189,0,2,1,enemyColors);
+			enemyTanks[i]=enemyTank;
+			//启动坦克
+			var timer=window.setInterval("enemyTanks["+i+"].run()",50);
+			enemyTanks[i].timer=timer;
+			//生成子弹
+			var eb=new Bullet(enemyTanks[i].x+10,enemyTanks[i].y+31,2,1.5,"enemy",enemyTanks[i]);
+			enemyBullets[i]=eb;
+			//启动子弹
+			var ebtimer=window.setInterval("enemyBullets["+i+"].run()",50);
+			enemyBullets[i].timer=ebtimer;
+		}
+		flashTankMap();
+		flashTimer=window.setInterval("flashTankMap()",100);
+	}
+
+	function getCommand(){
+		var code=event.keyCode;
+		//alert(code);
+		if(code==13&&gameStatus==0){
+			gameStatus=true;
+			gameStart();
+		}else if(gameStatus==1){
+			switch(code){
+			case 87://上
+			case 38:
+				hero.moveUp();
+				break;
+			case 65://左
+			case 37:
+				hero.moveLeft();
+				break;
+			case 83://下
+			case 40:
+				hero.moveDown();
+				break;
+			case 68://右
+			case 39:
+				hero.moveRight();
+				break;
+			case 32:
+				hero.shot();
+				break;
+			}
+			flashTankMap();
+		}
+	}
+	//定时刷新画布
+	function flashTankMap(){
+		cxt.clearRect(0,0,400,300);
+		drawTank(hero);
+		hero.drawHeroBullet();
+		for(var i=0;i<3;i++){
+			drawTank(enemyTanks[i]);
+			enemyTanks[i].drawEnemyBullet();
+		}
+		isHitEnemyTank();
+		if(isEnemyTankHitHero()){
+			window.clearInterval(flashTimer);
+			gameStatus=2;
+			cxt.clearRect(0,0,400,300);
+			cxt.fillStyle="#FF0000";
+			cxt.font="10px 宋体";
+			cxt.fillText("Game Over",170,145);
+			cxt.fillText("Press F5 to Restart",140,155);
+		}
+		drawBomb();
+		if(enemyTankNum==0){
+			window.clearInterval(flashTimer);
+			gameStatus=2;
+			cxt.clearRect(0,0,400,300);
+			cxt.fillStyle="#FF0000";
+			cxt.font="10px 宋体";
+			cxt.fillText("You Win!",170,145);
+			cxt.fillText("Press F5 to Restart",140,155);
+		}
+	}
+</script>
+</body>
+</html>

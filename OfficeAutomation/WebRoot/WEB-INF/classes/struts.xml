@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<include file="common.xml"></include>
+	
+	<package name="system" namespace="/system" extends="common">
+		<action name="*" class="{1}Action">
+			<result name="index">/WEB-INF/org/index.jsp</result>
+			<result name="company_input">/WEB-INF/org/company_input.jsp</result>
+			<result name="save_success">/WEB-INF/org/add_success.jsp</result>
+			<result name="add_input">/WEB-INF/org/{1}_add_input.jsp</result>
+			<result name="add_success">/WEB-INF/org/add_success.jsp</result>
+			<result name="update_input">/WEB-INF/org/{1}_update_input.jsp</result>
+			<result name="update_success">/WEB-INF/org/update_success.jsp</result>
+			<result name="del_success">/WEB-INF/org/delete_success.jsp</result>
+			<result name="person_list">/WEB-INF/org/person_list.jsp</result>
+		</action>
+		<action name="user" class="userAction">
+			<result name="index">/WEB-INF/user/index.jsp</result>
+			<result name="add_input">/WEB-INF/user/add_input.jsp</result>
+			<result name="add_success">/WEB-INF/user/add_success.jsp</result>
+			<result name="update_input">/WEB-INF/user/update_input.jsp</result>
+			<result name="update_success">/WEB-INF/user/update_success.jsp</result>
+			<result name="password_input">/password_input.jsp</result>
+			<result name="user_info_input">/user_info_input.jsp</result>
+			<result name="avatar_input">/avatar_input.jsp</result>
+		</action>
+		<action name="role" class="roleAction">
+			<result name="index">/WEB-INF/role/index.jsp</result>
+			<result name="add_input">/WEB-INF/role/add_input.jsp</result>
+			<result name="update_input">/WEB-INF/role/update_input.jsp</result>
+		</action>
+		<action name="menu" class="menuAction">			
+			<result name="index">/WEB-INF/menu/index.jsp</result>
+			<result name="add_input">/WEB-INF/menu/add_input.jsp</result>
+			<result name="add_success">/WEB-INF/menu/add_success.jsp</result>
+			<result name="update_input">/WEB-INF/menu/update_input.jsp</result>
+			<result name="update_success">/WEB-INF/menu/update_success.jsp</result>
+			<result name="del_success">/WEB-INF/menu/delete_success.jsp</result>
+		</action>
+		<action name="resource" class="resourceAction">			
+			<result name="index">/WEB-INF/resource/index.jsp</result>
+			<result name="add_input">/WEB-INF/resource/add_input.jsp</result>
+			<result name="add_success">/WEB-INF/resource/add_success.jsp</result>
+			<result name="update_input">/WEB-INF/resource/update_input.jsp</result>
+			<result name="update_success">/WEB-INF/resource/update_success.jsp</result>
+			<result name="oper_input">/WEB-INF/resource/oper_input.jsp</result>
+			<result name="del_success">/WEB-INF/resource/delete_success.jsp</result>
+		</action>
+		<action name="acl" class="aclAction">			
+			<result name="role_auth_index">/WEB-INF/acl/role_auth_index.jsp</result>
+			<result name="user_auth_index">/WEB-INF/acl/user_auth_index.jsp</result>
+			<result name="party_auth_index">/WEB-INF/acl/party_auth_index.jsp</result>
+			<result name="all_menu_resource">/WEB-INF/acl/all_menu_resource.jsp</result>
+			<result name="all_action_resource">/WEB-INF/acl/all_action_resource.jsp</result>
+		</action>
+		<action name="login" class="loginAction">
+			<result name="back_index">/WEB-INF/main.jsp</result>
+			<interceptor-ref name="my_basic_stack"/>
+		</action>
+		<action name="index" class="indexAction">
+			<result name="back_index">/WEB-INF/main.jsp</result>
+			<result name="center">/WEB-INF/center.jsp</result>
+			<result name="left">/WEB-INF/left.jsp</result>
+		</action>
+	</package>
+</struts>

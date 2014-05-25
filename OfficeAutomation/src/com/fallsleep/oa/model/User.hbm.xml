@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.fallsleep.oa.model">
+	<class name="User" table="T_USER">
+		<id name="id">
+			<generator class="foreign">
+				<param name="property">person</param>
+			</generator>
+		</id>
+		<property name="username"/>
+		<property name="password"/>
+		<property name="avatar"/>
+		<one-to-one name="person" constrained="true"/>
+		<set name="userRoles" inverse="true" lazy="extra" cascade="delete">
+			<key column="userId"/>
+			<one-to-many class="UserRoles"/>
+		</set>
+	</class>
+</hibernate-mapping>
