@@ -1,0 +1,33 @@
+--OfficeAutomation
+  1、项目采用SSH框架，发布路径为tomcat根目录。
+  2、使用Mysql数据库，数据库默认用户名root，密码为空。
+  3、发布后需要运行test.fallsleep.Test.testInitService()方法初始化账户及其他数据。
+  原本想通过Spring配置init-method属性执行初始化服务，但不知为何初始化超级管理员账户时hibernate会报No Session的错误。
+  4、项目只实现了系统管理模块，能够进行组织机构管理与权限管理，工作流JBPM部分及个人办公部分未实现。
+  5、在用户信息中可以修改姓名并更改头像。
+
+--avatar_upload
+  1、这是仿照新浪微博头像上传的Flash做的练手作品，在OfficeAutomation项目中使用了这部分功能。
+  2、实现了图片加载(将input file控件至于左上角看不到的部分)、图片旋转、图片预览、上传功能。
+  3、使用了jQuery框架及jQueryUI的部分功能。
+  具体功能实现代码在avatar_upload\avatar\avatar.js中，使用了canvas的drawImage()、rotate()方法。
+  4、使用ajax方式上传
+
+--tankGame
+  1、简易的坦克大战，使用canvas实现敌我双方坦克攻击、行进、转向等功能。
+
+
+以下是PHP项目
+--platform_crm
+  1、普通php项目，实现对客户及其账户信息的查询、编辑、条件检索、删除等功能，并对账户跟进信息进行处理。
+  2、数据库为目录下的crm.sql
+
+--careformumia
+  1、账户:admin 密码:abc123
+  2、月嫂招聘系统，采用cakephp框架，管理员可以录入、检索、修改、查看月嫂及工作信息，并将其配对。
+  3、数据库文件为目录下的caremumitest.sql
+
+--assetexchange
+  1、账户:91285 密码:91285
+  2、业权交易平台，可以显示最新资讯、物业资讯，可进行物业买卖，账户、物业信息的录入、检索、编辑等功能，查询交易记录及即时信息。
+  3、先导入mt4.sql，再导入assetexchange.sql
