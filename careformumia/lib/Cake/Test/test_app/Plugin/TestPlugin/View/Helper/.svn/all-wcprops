@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/test_app/Plugin/TestPlugin/View/Helper
+END
+TestPluginAppHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/test_app/Plugin/TestPlugin/View/Helper/TestPluginAppHelper.php
+END
+OtherHelperHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/test_app/Plugin/TestPlugin/View/Helper/OtherHelperHelper.php
+END
+PluggedHelperHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/test_app/Plugin/TestPlugin/View/Helper/PluggedHelperHelper.php
+END

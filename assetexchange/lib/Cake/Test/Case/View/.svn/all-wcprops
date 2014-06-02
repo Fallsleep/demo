@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View
+END
+ViewTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/ViewTest.php
+END
+MediaViewTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/MediaViewTest.php
+END
+ScaffoldViewTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/ScaffoldViewTest.php
+END
+HelperCollectionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/HelperCollectionTest.php
+END
+XmlViewTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/XmlViewTest.php
+END
+JsonViewTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/JsonViewTest.php
+END
+HelperTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/HelperTest.php
+END
+ThemeViewTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/View/ThemeViewTest.php
+END

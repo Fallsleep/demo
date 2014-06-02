@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/View/Layouts
+END
+ajax.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/View/Layouts/ajax.ctp
+END
+flash.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/View/Layouts/flash.ctp
+END
+default.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/View/Layouts/default.ctp
+END
+error.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/View/Layouts/error.ctp
+END

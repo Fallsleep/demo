@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Network
+END
+CakeRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Network/CakeRequest.php
+END
+CakeResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Network/CakeResponse.php
+END
+CakeSocket.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Network/CakeSocket.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/web/!svn/ver/19/platform_db/archive
+END
+transaction_add.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web/!svn/ver/19/platform_db/archive/transaction_add.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/web/!svn/ver/19/platform_db/archive/test.php
+END
+transactions.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/web/!svn/ver/19/platform_db/archive/transactions.php
+END

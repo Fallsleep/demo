@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Console/Templates/default/classes
+END
+test.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Console/Templates/default/classes/test.ctp
+END
+model.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Console/Templates/default/classes/model.ctp
+END
+fixture.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Console/Templates/default/classes/fixture.ctp
+END
+controller.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Console/Templates/default/classes/controller.ctp
+END

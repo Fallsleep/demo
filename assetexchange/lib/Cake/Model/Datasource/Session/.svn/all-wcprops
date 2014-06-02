@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Model/Datasource/Session
+END
+DatabaseSession.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Model/Datasource/Session/DatabaseSession.php
+END
+CakeSessionHandlerInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Model/Datasource/Session/CakeSessionHandlerInterface.php
+END
+CacheSession.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Model/Datasource/Session/CacheSession.php
+END

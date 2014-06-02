@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Configure
+END
+IniReaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Configure/IniReaderTest.php
+END
+PhpReaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Configure/PhpReaderTest.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/TestSuite/Fixture
+END
+CakeFixtureManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/TestSuite/Fixture/CakeFixtureManager.php
+END
+CakeTestFixture.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/TestSuite/Fixture/CakeTestFixture.php
+END
+CakeTestModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/TestSuite/Fixture/CakeTestModel.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/web/!svn/ver/404/assetexchange/app/View/Assets
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/319/assetexchange/app/View/Assets/add.ctp
+END
+admin_index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/web/!svn/ver/345/assetexchange/app/View/Assets/admin_index.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/web/!svn/ver/377/assetexchange/app/View/Assets/index.ctp
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web/!svn/ver/404/assetexchange/app/View/Assets/view.ctp
+END
+search.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/web/!svn/ver/381/assetexchange/app/View/Assets/search.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web/!svn/ver/402/assetexchange/app/View/Assets/edit.ctp
+END
+index_ajax.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/web/!svn/ver/401/assetexchange/app/View/Assets/index_ajax.ctp
+END

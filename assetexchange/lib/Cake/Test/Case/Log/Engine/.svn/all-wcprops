@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Log/Engine
+END
+FileLogTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Log/Engine/FileLogTest.php
+END
+ConsoleLogTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Log/Engine/ConsoleLogTest.php
+END

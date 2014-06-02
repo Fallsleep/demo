@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth
+END
+BaseAuthenticate.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php
+END
+BaseAuthorize.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/BaseAuthorize.php
+END
+DigestAuthenticate.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/DigestAuthenticate.php
+END
+FormAuthenticate.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/FormAuthenticate.php
+END
+CrudAuthorize.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/CrudAuthorize.php
+END
+ActionsAuthorize.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php
+END
+ControllerAuthorize.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php
+END
+BlowfishAuthenticate.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/BlowfishAuthenticate.php
+END
+BasicAuthenticate.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Auth/BasicAuthenticate.php
+END

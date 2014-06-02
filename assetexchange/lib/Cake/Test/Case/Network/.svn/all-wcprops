@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Network
+END
+CakeRequestTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Network/CakeRequestTest.php
+END
+CakeResponseTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Network/CakeResponseTest.php
+END
+CakeSocketTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/Case/Network/CakeSocketTest.php
+END

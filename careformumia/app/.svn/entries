@@ -1,0 +1,129 @@
+10
+
+dir
+181
+https://192.168.31.94/svn/web/careformumi_crm/app
+https://192.168.31.94/svn/web
+
+
+
+2013-05-21T09:33:45.636000Z
+181
+teresa
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1ceebc5b-f8aa-b44b-94cd-e459db8c7bb5
+
+.htaccess
+file
+
+
+
+
+2013-05-13T07:18:29.870000Z
+a2a9efe935decfd5f498bf0d83075574
+2013-04-25T08:48:25.801800Z
+5
+carl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+140
+
+Config
+dir
+
+Console
+dir
+
+Controller
+dir
+
+Lib
+dir
+
+Locale
+dir
+
+Model
+dir
+
+Plugin
+dir
+
+Test
+dir
+
+Vendor
+dir
+
+View
+dir
+
+index.php
+file
+
+
+
+
+2013-05-13T07:18:29.947000Z
+1a7ce1bc184768c2551c5c3ae652ae5a
+2013-04-25T08:48:25.801800Z
+5
+carl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+702
+
+webroot
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/TestSuite/Reporter
+END
+CakeTextReporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/TestSuite/Reporter/CakeTextReporter.php
+END
+CakeBaseReporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/TestSuite/Reporter/CakeBaseReporter.php
+END
+CakeHtmlReporter.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/TestSuite/Reporter/CakeHtmlReporter.php
+END

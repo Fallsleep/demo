@@ -1,0 +1,21 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 18
+/svn/web/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/web/!svn/ver/253/assetexchange/app
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/web/!svn/ver/194/assetexchange/app/index.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/web/!svn/ver/194/assetexchange/app/.htaccess
+END

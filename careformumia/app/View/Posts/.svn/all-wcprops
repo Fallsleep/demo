@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Posts
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Posts/add.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Posts/index.ctp
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Posts/view.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Posts/edit.ctp
+END

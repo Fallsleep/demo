@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Acl
+END
+IniAcl.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Acl/IniAcl.php
+END
+DbAcl.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Acl/DbAcl.php
+END
+AclInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Acl/AclInterface.php
+END
+PhpAcl.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Controller/Component/Acl/PhpAcl.php
+END

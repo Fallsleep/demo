@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Config
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Config/routes.php
+END
+cacert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Config/cacert.pem
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Config/config.php
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/web/!svn/ver/318/assetexchange/app/Config
+END
+acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/web/!svn/ver/194/assetexchange/app/Config/acl.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/web/!svn/ver/318/assetexchange/app/Config/routes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/276/assetexchange/app/Config/database.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web/!svn/ver/194/assetexchange/app/Config/bootstrap.php
+END
+database.php.default
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/web/!svn/ver/194/assetexchange/app/Config/database.php.default
+END
+core.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/web/!svn/ver/300/assetexchange/app/Config/core.php
+END
+email.php.default
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web/!svn/ver/194/assetexchange/app/Config/email.php.default
+END
+acl.ini.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web/!svn/ver/194/assetexchange/app/Config/acl.ini.php
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/web/!svn/ver/175/careformumi_crm/app/Controller
+END
+SchedulesController.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web/!svn/ver/167/careformumi_crm/app/Controller/SchedulesController.php
+END
+ServicesController.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web/!svn/ver/107/careformumi_crm/app/Controller/ServicesController.php
+END
+EduBackgroundsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/web/!svn/ver/175/careformumi_crm/app/Controller/EduBackgroundsController.php
+END
+AppController.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web/!svn/ver/86/careformumi_crm/app/Controller/AppController.php
+END
+PostsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web/!svn/ver/5/careformumi_crm/app/Controller/PostsController.php
+END
+PagesController.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web/!svn/ver/5/careformumi_crm/app/Controller/PagesController.php
+END
+DistrictsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web/!svn/ver/100/careformumi_crm/app/Controller/DistrictsController.php
+END
+WorkersController.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web/!svn/ver/175/careformumi_crm/app/Controller/WorkersController.php
+END
+AvailDistrictsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/web/!svn/ver/86/careformumi_crm/app/Controller/AvailDistrictsController.php
+END
+JobsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/web/!svn/ver/173/careformumi_crm/app/Controller/JobsController.php
+END
+UsersController.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/web/!svn/ver/136/careformumi_crm/app/Controller/UsersController.php
+END

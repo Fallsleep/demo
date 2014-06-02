@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case
+END
+AllHelpersTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllHelpersTest.php
+END
+BasicsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/BasicsTest.php
+END
+AllConfigureTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllConfigureTest.php
+END
+AllTestSuiteTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllTestSuiteTest.php
+END
+AllRoutingTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllRoutingTest.php
+END
+AllViewTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllViewTest.php
+END
+AllErrorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllErrorTest.php
+END
+AllUtilityTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllUtilityTest.php
+END
+AllNetworkTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllNetworkTest.php
+END
+AllConsoleTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllConsoleTest.php
+END
+AllComponentsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllComponentsTest.php
+END
+AllEventTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllEventTest.php
+END
+AllDatabaseTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllDatabaseTest.php
+END
+AllControllerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllControllerTest.php
+END
+AllI18nTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllI18nTest.php
+END
+AllTestsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllTestsTest.php
+END
+AllBehaviorsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllBehaviorsTest.php
+END
+AllCoreTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllCoreTest.php
+END
+AllCacheTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllCacheTest.php
+END
+AllLogTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/AllLogTest.php
+END

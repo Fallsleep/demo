@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource
+END
+TestOtherSource.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/TestOtherSource.php
+END
+TestSource.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/Datasource/TestSource.php
+END

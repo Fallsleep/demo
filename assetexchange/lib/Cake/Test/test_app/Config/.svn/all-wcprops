@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config
+END
+acl.ini
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/acl.ini
+END
+var_test2.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/var_test2.php
+END
+empty.ini
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/empty.ini
+END
+acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/acl.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/routes.php
+END
+var_test.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/var_test.php
+END
+htmlhelper_minimized.ini
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/htmlhelper_minimized.ini
+END
+no_ini_extension
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/no_ini_extension
+END
+empty.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/empty.php
+END
+htmlhelper_tags.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/htmlhelper_tags.php
+END
+acl.ini.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/acl.ini.php
+END
+no_php_extension
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/no_php_extension
+END
+nested.ini
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/nested.ini
+END
+no_section.ini
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Test/test_app/Config/no_section.ini
+END

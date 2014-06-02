@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Errors
+END
+error400.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Errors/error400.ctp
+END
+error500.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/web/!svn/ver/5/careformumi_crm/app/View/Errors/error500.ctp
+END

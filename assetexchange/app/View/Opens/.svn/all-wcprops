@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/web/!svn/ver/400/assetexchange/app/View/Opens
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web/!svn/ver/382/assetexchange/app/View/Opens/index.ctp
+END
+trade.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/web/!svn/ver/400/assetexchange/app/View/Opens/trade.ctp
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/291/assetexchange/app/View/Opens/view.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/400/assetexchange/app/View/Opens/edit.ctp
+END

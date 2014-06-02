@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Calibre, "å¾®èþýæ­þýþýé«þý, sans-serif;
+	font-weight: bold;
+}
+
+a {
+	color: #008080 ;
+}
+
+table {
+	border: 1px solid #444;
+	border-collapse:collapse;
+	font-family: Calibre, sans-serif;
+	font-size: 12px;
+	width: 100%;
+}
+
+tr:nth-child(odd) {
+	background-color: #ddd;
+}
+
+th {
+	background-color: #444;
+	color: #fff;
+	padding: 5px;
+	text-align: left;
+}
+
+td {
+	padding: 5px;
+}
+
+input[type=submit], input[type=button] {
+	color: #008080;
+	cursor: pointer;
+	border: 1px solid #008080;
+	margin: 1px;
+	padding: 1px;
+}
+
+.section-header {
+	color: #008080;
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.expandable {
+	cursor: pointer;
+}
+
+#container{
+	margin: 0 70px;
+}
+
+#content{
+	padding: 10px;
+}
+
+#menu {
+	background-color: #008080;
+	height: 40px;
+	width: 100%;
+}
+
+#menu ul {
+	position: absolute;
+}
+
+#menu li {
+	font-size: 20px;
+	float: left;
+	list-style-type: none;
+	margin: 0 -10px 0 -10px;
+	padding: 10px;
+}
+
+#menu li a {
+	border-right: 2px solid #ffffff;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 16px;
+}
+
+#menu li a:hover, #menu li a.current {
+	background-color: #ffffff;
+	color: #008080;
+}
+
+#menu li a.inactive {
+	cursor: default;
+}

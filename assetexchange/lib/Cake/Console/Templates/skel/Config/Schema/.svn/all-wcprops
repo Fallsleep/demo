@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/Config/Schema
+END
+db_acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/Config/Schema/db_acl.php
+END
+sessions.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/Config/Schema/sessions.php
+END
+i18n.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/Config/Schema/i18n.php
+END
+db_acl.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/Config/Schema/db_acl.sql
+END
+sessions.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/Config/Schema/sessions.sql
+END
+i18n.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/194/assetexchange/lib/Cake/Console/Templates/skel/Config/Schema/i18n.sql
+END

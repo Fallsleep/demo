@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/394/assetexchange/app/View/UserFavourites
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/web/!svn/ver/389/assetexchange/app/View/UserFavourites/index.ctp
+END
+index_ajax.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/web/!svn/ver/394/assetexchange/app/View/UserFavourites/index_ajax.ctp
+END

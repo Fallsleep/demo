@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/web/!svn/ver/402/assetexchange/app/Model
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/web/!svn/ver/313/assetexchange/app/Model/Message.php
+END
+AppModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web/!svn/ver/288/assetexchange/app/Model/AppModel.php
+END
+Open.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/web/!svn/ver/253/assetexchange/app/Model/Open.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/web/!svn/ver/398/assetexchange/app/Model/User.php
+END
+UserFavourite.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/web/!svn/ver/347/assetexchange/app/Model/UserFavourite.php
+END
+District.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web/!svn/ver/202/assetexchange/app/Model/District.php
+END
+Transaction.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/web/!svn/ver/212/assetexchange/app/Model/Transaction.php
+END
+Asset.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/web/!svn/ver/402/assetexchange/app/Model/Asset.php
+END
+MessageTemplate.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/web/!svn/ver/303/assetexchange/app/Model/MessageTemplate.php
+END
+AssetImg.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/web/!svn/ver/211/assetexchange/app/Model/AssetImg.php
+END
+UserAsset.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/web/!svn/ver/211/assetexchange/app/Model/UserAsset.php
+END

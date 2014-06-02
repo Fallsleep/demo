@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/Network/Email
+END
+CakeEmailTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/Network/Email/CakeEmailTest.php
+END
+DebugTransportTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/Network/Email/DebugTransportTest.php
+END
+MailTransportTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/Network/Email/MailTransportTest.php
+END
+SmtpTransportTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/web/!svn/ver/5/careformumi_crm/lib/Cake/Test/Case/Network/Email/SmtpTransportTest.php
+END
